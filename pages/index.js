@@ -30,7 +30,7 @@ export default function Home() {
               <div className="col-sm-3">&nbsp;</div>
               <div className="col-sm-6">
                 <div className="form-group">
-                  <label className="control-label col-sm-4" for="param2">
+                  <label className="control-label col-sm-4" htmlFor="param2">
                     Nama Pesakit / <i>Patient Name</i> :{' '}
                   </label>
                   <div className="col-sm-8">
@@ -39,12 +39,12 @@ export default function Home() {
                       type="email"
                       className="form-control"
                       value="SHANNA GALLIVAN"
-                      readonly
+                      readOnly
                     />
                   </div>
                 </div>
                 <div className="form-group">
-                  <label className="control-label col-sm-4" for="param3">
+                  <label className="control-label col-sm-4" htmlFor="param3">
                     ID Pemohon / <i>Patient ID</i> :{' '}
                   </label>
                   <div className="col-sm-8">
@@ -53,12 +53,12 @@ export default function Home() {
                       type="text"
                       className="form-control"
                       value="530569 ******* (6 digit pertama / first 6 digits)"
-                      readonly
+                      readOnly
                     />
                   </div>
                 </div>
                 <div className="form-group">
-                  <label className="control-label col-sm-4" for="param3">
+                  <label className="control-label col-sm-4" htmlFor="param3">
                     Makmal Rujukan / <i>Reference Laboratory</i> :{' '}
                   </label>
                   <div className="col-sm-8">
@@ -66,14 +66,14 @@ export default function Home() {
                       style={{ backgroundColor: '#eee' }}
                       rows="2"
                       className="form-control"
-                      readonly
+                      readOnly
                     >
                       KLINIK PRO MEDIC (KOTA KEMUNING)
                     </textarea>
                   </div>
                 </div>
                 <div className="form-group">
-                  <label className="control-label col-sm-4" for="param1">
+                  <label className="control-label col-sm-4" htmlFor="param1">
                     No. Rujukan Makmal / <i>Lab Reference No.</i> :{' '}
                   </label>
                   <div className="col-sm-8">
@@ -82,12 +82,12 @@ export default function Home() {
                       type="email"
                       className="form-control"
                       value="KPM/APRL26/MYEGS15"
-                      readonly
+                      readOnly
                     />
                   </div>
                 </div>
                 <div className="form-group">
-                  <label className="control-label col-sm-4" for="param3">
+                  <label className="control-label col-sm-4" htmlFor="param3">
                     Tarikh Makmal Terima Spesimen /{' '}
                     <i>Date Received Specimen in Lab (dd-mm-yyyy)</i> :{' '}
                   </label>
@@ -97,12 +97,12 @@ export default function Home() {
                       type="text"
                       className="form-control"
                       value="26-04-2022"
-                      readonly
+                      readOnly
                     />
                   </div>
                 </div>
                 <div className="form-group">
-                  <label className="control-label col-sm-4" for="param3">
+                  <label className="control-label col-sm-4" htmlFor="param3">
                     Nama Ujian / <i>Test Name</i> :{' '}
                   </label>
                   <div className="col-sm-8">
@@ -111,12 +111,12 @@ export default function Home() {
                       type="text"
                       className="form-control"
                       value="Rapid Antigen Test"
-                      readonly
+                      readOnly
                     />
                   </div>
                 </div>
                 <div className="form-group">
-                  <label className="control-label col-sm-4" for="param3">
+                  <label className="control-label col-sm-4" htmlFor="param3">
                     Keputusan Ujian / <i>Test Result</i> :{' '}
                   </label>
                   <div className="col-sm-8">
@@ -125,7 +125,7 @@ export default function Home() {
                       type="text"
                       className="form-control"
                       value="Negative"
-                      readonly
+                      readOnly
                     />
                   </div>
                 </div>

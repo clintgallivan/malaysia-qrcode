@@ -6,9 +6,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        // Responsive meta tag
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        // bootstrap CDN
+
         <link
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
